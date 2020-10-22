@@ -6,8 +6,11 @@ namespace EFassinment4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("hello again");
+         using var ctx = new NorthWindContext();
+         foreach (var category in ctx.Categories)
+         {
+             Console.WriteLine(category);
+         }
         }
     }
 }
