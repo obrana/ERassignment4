@@ -9,12 +9,9 @@ namespace EFassinment4
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public override string ToString()
-        {
-            return $"ID={Id}, Name={Name}";
-        }
+    
 
-       public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+        public class CategoryConfiguration : IEntityTypeConfiguration<Category>
         {
             public void Configure(EntityTypeBuilder<Category> builder)
             {
