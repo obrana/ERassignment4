@@ -13,10 +13,7 @@ namespace EFassinment4
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Category>().ToTable("categories");
-            modelBuilder.Entity<Category>().Property(x=> x.Id).HasColumnName("categoryid");
-            modelBuilder.Entity<Category>().Property(x=> x.Name).HasColumnName("categoryname");
-            modelBuilder.Entity<Category>().Property(x=> x.Description).HasColumnName("description");
+            modelBuilder.ApplyConfiguration(new Category.CategoryConfiguration());
         }
     }
 } 

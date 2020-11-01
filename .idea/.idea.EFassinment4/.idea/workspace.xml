@@ -13,12 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17db56d5-edc9-4142-b729-9493c6f97268" name="Default Changelist" comment="start">
-      <change afterPath="$PROJECT_DIR$/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NorthWindContext.cs" afterDir="false" />
+    <list default="true" id="17db56d5-edc9-4142-b729-9493c6f97268" name="Default Changelist" comment="Db connection">
+      <change afterPath="$PROJECT_DIR$/DataService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFassinment4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFassinment4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFassinment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFassinment4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFassinment4.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EFassinment4.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthWindContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NorthWindContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +32,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Category.cs" />
         <option value="$PROJECT_DIR$/NorthWindContex.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Category.cs" />
         <option value="$PROJECT_DIR$/NorthWindContext.cs" />
+        <option value="$PROJECT_DIR$/DataService.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603362194689</updated>
-      <workItem from="1603362204441" duration="2528000" />
+      <workItem from="1603362204441" duration="2894000" />
+      <workItem from="1604217828928" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1603362302931</created>
@@ -93,13 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1603362845214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Db connection">
+      <created>1603366123222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603366123222</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,33 +120,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="Db connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Db connection" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1353" height="217" key="GridCell.Tab.0.bottom" timestamp="1603363097055">
+    <state width="756" height="73" key="GridCell.Tab.0.bottom" timestamp="1604226244317">
       <screen x="25" y="23" width="1415" height="877" />
     </state>
-    <state width="1353" height="217" key="GridCell.Tab.0.bottom/25.23.1415.877@25.23.1415.877" timestamp="1603363097055" />
-    <state width="1353" height="217" key="GridCell.Tab.0.center" timestamp="1603363097054">
+    <state width="756" height="73" key="GridCell.Tab.0.bottom/25.23.1415.877@25.23.1415.877" timestamp="1604226244317" />
+    <state width="756" height="73" key="GridCell.Tab.0.center" timestamp="1604226244316">
       <screen x="25" y="23" width="1415" height="877" />
     </state>
-    <state width="1353" height="217" key="GridCell.Tab.0.center/25.23.1415.877@25.23.1415.877" timestamp="1603363097054" />
-    <state width="1353" height="217" key="GridCell.Tab.0.left" timestamp="1603363097054">
+    <state width="756" height="73" key="GridCell.Tab.0.center/25.23.1415.877@25.23.1415.877" timestamp="1604226244316" />
+    <state width="756" height="73" key="GridCell.Tab.0.left" timestamp="1604226244316">
       <screen x="25" y="23" width="1415" height="877" />
     </state>
-    <state width="1353" height="217" key="GridCell.Tab.0.left/25.23.1415.877@25.23.1415.877" timestamp="1603363097054" />
-    <state width="1353" height="217" key="GridCell.Tab.0.right" timestamp="1603363097055">
+    <state width="756" height="73" key="GridCell.Tab.0.left/25.23.1415.877@25.23.1415.877" timestamp="1604226244316" />
+    <state width="756" height="73" key="GridCell.Tab.0.right" timestamp="1604226244317">
       <screen x="25" y="23" width="1415" height="877" />
     </state>
-    <state width="1353" height="217" key="GridCell.Tab.0.right/25.23.1415.877@25.23.1415.877" timestamp="1603363097055" />
-    <state x="332" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603363053201">
+    <state width="756" height="73" key="GridCell.Tab.0.right/25.23.1415.877@25.23.1415.877" timestamp="1604226244317" />
+    <state x="332" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603366130059">
       <screen x="25" y="23" width="1415" height="877" />
     </state>
-    <state x="332" y="201" key="Vcs.Push.Dialog.v2/25.23.1415.877@25.23.1415.877" timestamp="1603363053201" />
+    <state x="332" y="201" key="Vcs.Push.Dialog.v2/25.23.1415.877@25.23.1415.877" timestamp="1603366130059" />
     <state x="554" y="362" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603363045657">
       <screen x="25" y="23" width="1415" height="877" />
     </state>

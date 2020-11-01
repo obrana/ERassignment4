@@ -5,6 +5,7 @@
       <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Category.cs" t="Include" />
+      <e p="DataService.cs" t="Include" />
       <e p="EFassinment4.csproj" t="IncludeRecursive" />
       <e p="EFassinment4.sln" t="IncludeFlat" />
       <e p="NorthWindContext.cs" t="Include" />
