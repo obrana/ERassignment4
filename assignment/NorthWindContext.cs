@@ -1,4 +1,5 @@
 using assignment;
+using EFAssinment4;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFassinment4

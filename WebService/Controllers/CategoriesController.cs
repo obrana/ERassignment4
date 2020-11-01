@@ -1,15 +1,19 @@
-using EFassinment4;
+
+using EFAssinment4;
 using Microsoft.AspNetCore.Mvc;
 using WebService.Models;
 
+
 namespace WebService.Controllers
 {
-    
-    [Route ("api/categories")]
     [ApiController]
+    [Route ("api/categories")]
+   
     public class CategoriesController : Controller
     {
-        private readonly DataService _dataService;
+   
+            DataService _dataService;
+        
 
 
         public CategoriesController(DataService dataService)
@@ -17,7 +21,7 @@ namespace WebService.Controllers
             _dataService = dataService;
         }
 
-        [HttpGet]
+        [HttpGet ("api/categories")]
         public IActionResult GetCategories()
         {
             var data = _dataService.GetCategories();

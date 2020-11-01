@@ -2,9 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using assignment;
+using EFassinment4;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFassinment4
+namespace EFAssinment4
 {
     public class DataService
     {

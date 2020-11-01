@@ -1,4 +1,4 @@
-using EFassinment4;
+using EFAssinment4;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using WebService.Models;
